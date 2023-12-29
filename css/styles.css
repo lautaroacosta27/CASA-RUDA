@@ -1,0 +1,581 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  display: none;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.721);
+  min-height: 100vh;
+}
+
+#fondo-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.body-style {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+}
+
+header .menu-button {
+  width: 90px;
+  height: 190px;
+  position: fixed;
+  left: 0;
+  margin-left: -1%;
+  top: 300px;
+  background-color: rgba(23, 22, 22, 0.981);
+  color: rgba(255, 255, 255, 0.721);
+  border: solid 1px;
+  border-color: rgba(23, 22, 22, 0.981);
+  border-top-right-radius: 90px;
+  /* Redondez solo en el lado derecho */
+  border-bottom-right-radius: 90px;
+  /* Redondez solo en el lado derecho */
+  cursor: pointer;
+  z-index: 1000;
+}
+header .menu-button:hover {
+  transform: scaleX(1);
+  transform: scaleY(1.1);
+  transition: all 2s;
+}
+header .menu-button p {
+  transform: rotate(90deg);
+  /* Rota el texto del botón -90 grados */
+  white-space: nowrap;
+  margin-top: 20px;
+  font-family: "Grandiflora One", cursive;
+  font-size: 1.4em;
+}
+header .menu-button2 {
+  width: 90px;
+  height: 190px;
+  position: fixed;
+  right: 0;
+  margin-right: 0%;
+  top: 300px;
+  background-color: rgba(23, 22, 22, 0.981);
+  color: rgba(255, 255, 255, 0.721);
+  border: solid 1px;
+  border-color: rgba(23, 22, 22, 0.981);
+  border-top-left-radius: 90px;
+  /* Redondez solo en el lado derecho */
+  border-bottom-left-radius: 90px;
+  /* Redondez solo en el lado derecho */
+  cursor: pointer;
+  z-index: 1000;
+}
+header .menu-button2:hover {
+  transform: scaleX(1.1);
+  transform: scaleY(1.1);
+  transition: all 2s;
+}
+header .menu-button2 p {
+  transform: rotate(-90deg);
+  /* Rota el texto del botón -90 grados */
+  white-space: nowrap;
+  margin-top: 25px;
+  margin-left: 15px;
+  font-family: "Grandiflora One", cursive;
+  font-size: 1.4em;
+}
+
+main {
+  background-color: rgba(23, 22, 22, 0.981);
+  margin: 0%;
+  padding: 0%;
+}
+main .buttonHome {
+  width: 100px;
+  height: 50px;
+  position: fixed;
+  margin-left: 150px;
+  margin-top: 45px;
+  background-color: rgb(31, 31, 31);
+  color: rgba(255, 255, 255, 0.721);
+  border: solid 1px;
+}
+main h2 {
+  font-family: "Grandiflora One", cursive;
+  font-size: 3em;
+  color: rgba(255, 255, 255, 0.721);
+  font-weight: 200;
+}
+main h3 {
+  font-family: "Libre Franklin", sans-serif;
+  color: rgba(255, 255, 255, 0.721);
+  font-weight: 600;
+  margin-bottom: -5px;
+}
+main h4 {
+  font-family: "Libre Franklin", sans-serif;
+  color: rgba(255, 255, 255, 0.721);
+  margin-bottom: 0%;
+  margin-top: 10px;
+}
+main a {
+  text-decoration: none;
+}
+main .menuStyle {
+  text-align: center;
+  border-left: 4px solid rgba(255, 255, 255, 0.721);
+  border-right: 4px solid rgba(255, 255, 255, 0.721);
+  box-sizing: border-box;
+  margin: 0 100px;
+  padding: 0%;
+}
+main .menuStyle h2 {
+  font-size: 3em;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  text-decoration-line: underline;
+  margin-bottom: 2%;
+}
+main .menuStyle h3 {
+  font-family: "Kanit", sans-serif;
+}
+main .menuStyle h4 {
+  font-weight: 400;
+  padding: 0%;
+}
+main .informacion {
+  text-align: center;
+  padding: 10px;
+}
+main .informacion .horario {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .informacion .logo-instagram {
+  margin-bottom: 15px;
+}
+main .informacion h2 {
+  border: 1px solid rgba(255, 255, 255, 0.721);
+  padding: 5px;
+  max-width: 300px;
+  max-height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+main .informacion h2 h2 span {
+  display: inline-block;
+  text-align: inherit;
+}
+main .galeria .image-container2 .textura2 {
+  position: relative;
+  width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+main .galeria .image-container2 h2 {
+  text-align: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.721);
+  background-color: rgb(32, 36, 52);
+  font-weight: 600;
+  height: 350px;
+}
+main .galeria .kitchenbar h2 {
+  margin: 0;
+  text-align: center;
+}
+main .galeria .kitchenbar h4 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+main .galeria .kitchenbar .kitchen-img {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  text-align: center;
+}
+main .galeria .kitchenbar .kitchen-img img {
+  width: 100%;
+  height: auto;
+}
+main .galeria .brunchcoffe {
+  margin-top: -750px;
+}
+main .galeria .brunchcoffe h2 {
+  margin: 0;
+  text-align: center;
+}
+main .galeria .brunchcoffe h4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+main .galeria .brunchcoffe .brunch-img {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  text-align: center;
+}
+main .galeria .brunchcoffe .brunch-img img {
+  width: 100%;
+  height: auto;
+}
+main .galeria .gardenruda {
+  margin-top: -950px;
+}
+main .galeria .gardenruda h2 {
+  margin: 0;
+  text-align: center;
+}
+main .galeria .gardenruda h4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+main .galeria .gardenruda .garden-img {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  text-align: center;
+}
+main .galeria .gardenruda .garden-img img {
+  width: 100%;
+  height: auto;
+}
+main .galeria .bakeryruda {
+  margin-top: -750px;
+}
+main .galeria .bakeryruda h2 {
+  margin: 0;
+  text-align: center;
+}
+main .galeria .bakeryruda h4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+main .galeria .bakeryruda .bakery-img {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  /* Dos filas */
+  grid-template-columns: repeat(2, 1fr);
+  /* Dos columnas */
+  gap: 10px;
+  /* Espacio entre las imágenes */
+  text-align: center;
+}
+main .galeria .bakeryruda .bakery-img img {
+  width: 100%;
+  height: auto;
+}
+
+/* Cambiar el color del scrollbar vertical en WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Ancho del scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(31, 31, 31); /* Color del thumb (la parte móvil) */
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(23, 22, 22, 0.981); /* Color del track (la parte fija) */
+}
+
+#btnScrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(31, 31, 31);
+  color: rgba(255, 255, 255, 0.721);
+  border: none;
+  border-radius: 50px;
+  padding: 20px 35px;
+  cursor: pointer;
+}
+
+.informacion {
+  opacity: 0; /* Inicialmente establece la opacidad en 0 */
+  transition: opacity 0.5s ease-in-out; /* Agrega una transición suave de 0.5 segundos */
+}
+
+.informacion.show {
+  opacity: 1; /* Cuando la clase "show" está presente, establece la opacidad en 1 */
+}
+
+.text-spot {
+  opacity: 0; /* Inicialmente establece la opacidad en 0 */
+  transform: translateY(20px); /* Mueve el elemento hacia abajo para dar un efecto de deslizamiento */
+  transition: opacity 2s ease-in-out, transform 0.5s ease-in-out; /* Agrega una transición suave de 0.5 segundos */
+}
+
+.text-spot.show {
+  opacity: 1; /* Cuando la clase "show" está presente, establece la opacidad en 1 */
+  transform: translateY(0); /* Cuando la clase "show" está presente, mueve el elemento a su posición original */
+}
+
+footer {
+  background-color: rgba(7, 7, 7, 0.953);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin-top: 0;
+}
+footer .left, footer .center {
+  display: flex;
+  align-items: center;
+  margin: 0%;
+}
+footer .left {
+  margin-left: 100px;
+}
+footer .left img {
+  width: 100px;
+}
+footer .center h4 {
+  text-decoration: none;
+  font-family: "Libre Franklin", sans-serif;
+  color: rgba(255, 255, 255, 0.721);
+  font-size: 1em;
+  margin-right: 400px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+header .image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+header .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+header .image-container .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.721);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 12em;
+  font-weight: 200;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.bodymenus {
+  overflow-y: scroll;
+  background-image: url("../img/img-header/wallpaperbetter.jpg"); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la ruta correcta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+  background-color: rgba(7, 7, 7, 0.953);
+  align-items: center;
+}
+header .img-menus {
+  width: 200px;
+}
+
+.contenedor-acordeon {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 80px;
+}
+.contenedor-acordeon .acordeon {
+  background: #1C2E30;
+}
+.contenedor-acordeon .acordeon label {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(31, 31, 31);
+  color: rgba(255, 255, 255, 0.721);
+  font-weight: 900;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: all 300ms ease;
+  position: relative;
+}
+.contenedor-acordeon .acordeon label:hover {
+  background: rgb(31, 31, 31);
+}
+.contenedor-acordeon .contenido-acordeon {
+  overflow: hidden;
+  max-height: 0;
+  text-align: center;
+}
+.contenedor-acordeon h2 {
+  text-align: center;
+  font-size: 3em;
+  text-decoration: underline;
+  font-weight: 900;
+  margin-bottom: 35px;
+  color: rgba(255, 255, 255, 0.721);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor-acordeon h3 {
+  color: rgba(255, 255, 255, 0.721);
+  font-size: 1.8em;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -3px;
+}
+.contenedor-acordeon h4 {
+  margin-bottom: -3px;
+  color: rgba(255, 255, 255, 0.721);
+  font-size: 1.4em;
+  font-weight: 200;
+}
+
+.btn-acordeon, .btn-acordeon2, .btn-acordeon3 {
+  display: none;
+  top: 20px; /* Ajusta según tu preferencia */
+  left: 20px; /* Ajusta según tu preferencia */
+  z-index: 1; /* Asegura que esté encima del contenido */
+}
+
+.btn-acordeon:checked + .acordeon label, .btn-acordeon2:checked + .acordeon label, .btn-acordeon3:checked + .acordeon label, .btn-acordeon4:checked + .acordeon label {
+  background: rgba(7, 7, 7, 0.953);
+  color: rgba(255, 255, 255, 0.721);
+}
+
+.btn-acordeon:not(:checked) + .contenido-acordeon, .btn-acordeon2:not(:checked) + .contenido-acordeon, .btn-acordeon3:not(:checked) + .contenido-acordeon, .btn-acordeon4:not(:checked) + .contenido-acordeon {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0;
+  transition: max-height 0.3s ease; /* Agregamos una transición para una apariencia más suave */
+}
+
+.btn-acordeon:checked + .contenido-acordeon, .btn-acordeon2:checked + .contenido-acordeon, .btn-acordeon3:checked + .contenido-acordeon, .btn-acordeon4:checked + .contenido-acordeon {
+  max-height: 1000px;
+  overflow-y: scroll;
+  padding: 15px 0px;
+  transition: max-height 0.3s ease; /* Agregamos una transición para una apariencia más suave */
+}
+
+/*//////////// javaScript //////////*/
+/*//////////// javaScript //////////*/
+.img-menus1 {
+  margin-top: 25%;
+  width: 200px;
+}
+
+.reserva-info .confirmacion-reserva {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.721);
+  font-size: 2.5em;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.reserva-info strong {
+  color: rgba(255, 255, 255, 0.721);
+  font-size: 1em;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.reserva-info h3 {
+  color: rgba(255, 255, 255, 0.721);
+  font-size: 1.5em;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#btnReservar {
+  width: 1000px;
+  height: 80px;
+  border: solid 1px;
+  border-color: rgba(23, 22, 22, 0.981);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(31, 31, 31);
+  color: rgba(255, 255, 255, 0.721);
+  font-weight: 900;
+}
+
+#reservaForm {
+  margin-top: 10px;
+}
+#reservaForm label {
+  width: 300px; /* Ancho común para labels e inputs */
+  padding-right: 10px;
+  color: rgba(255, 255, 255, 0.721);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+#reservaForm input {
+  width: 300px; /* Ancho común para labels e inputs */
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.721);
+  color: rgb(31, 31, 31);
+}
+#reservaForm #btnFinalizarReserva {
+  width: 1000px;
+  height: 80px;
+  margin-bottom: 50px;
+  border: solid 1px;
+  border-color: rgba(23, 22, 22, 0.981);
+  text-align: center;
+  margin-top: 10px;
+  font-size: 2.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(31, 31, 31);
+  color: rgba(255, 255, 255, 0.721);
+  font-weight: 900;
+}
+
+#reservaDetails {
+  text-align: center;
+  background: #1C2E30;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.reserva-detalles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.reserva-detalles div {
+  width: 22%;
+  list-style: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

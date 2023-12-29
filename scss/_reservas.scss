@@ -1,0 +1,111 @@
+/*//////////// javaScript //////////*/
+/*//////////// javaScript //////////*/
+
+.img-menus1{
+    margin-top: 25%;
+    width: 200px;
+}
+.reserva-info {
+    .confirmacion-reserva {
+    text-align: center;
+    color: $fontsColorWhite;
+    font-size: $fontSize7;
+    font-weight: $fontWeight4;
+    font-family: $fontFamily;
+}
+strong{
+    color: $fontsColorWhite;
+    font-size: $fontSize2;
+    font-weight: $fontWeight3;
+    font-family: $fontFamily;
+}
+h3{
+    color: $fontsColorWhite;
+    font-size: $fontSize5;
+    font-weight: $fontWeight1;
+    margin-top: 20px;
+}
+}
+
+.hidden {
+    display: none;
+}
+
+#btnReservar {
+    width: 1000px;
+    height: 80px;
+    border: solid 1px;
+    border-color: $maincolor1;
+    text-align: center;
+    margin-top: 20px;
+    font-size: $fontSize7;
+    font-family: $fontFamily;
+    background: $bgColorButton;
+    color: $fontsColorWhite;
+    font-weight: $fontWeight3;
+}
+
+#reservaForm {
+ margin-top: 10px;
+    label {
+        width: 300px; /* Ancho común para labels e inputs */
+        padding-right: 10px;
+        color: $fontsColorWhite;
+        font-family: $fontFamily;
+        font-size: $fontSize2;
+    }
+    input{
+        width: 300px; /* Ancho común para labels e inputs */
+        margin-bottom: 10px;
+        padding: 5px; 
+        background-color: $fontsColorWhite;
+        color:$bgColorButton ;
+    }
+    #btnFinalizarReserva{
+        width: 1000px;
+        height: 80px;
+        margin-bottom: 50px;
+        border: solid 1px;
+        border-color: $maincolor1;
+        text-align: center;
+        margin-top: 10px;
+        font-size: $fontSize7;
+        font-family: $fontFamily;
+        background: $bgColorButton;
+        color: $fontsColorWhite;
+        font-weight: $fontWeight3;
+    }
+
+}
+
+#reservaDetails {
+    text-align: center;
+
+    background: $imputbgColor;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+
+
+.reserva-detalles {
+    display: flex;
+    justify-content: space-between;
+margin-top: 30px;
+    div {
+        width: 22%;
+        list-style: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

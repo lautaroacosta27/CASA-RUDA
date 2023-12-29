@@ -1,0 +1,32 @@
+footer{
+    background-color: $mainColor;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 0;
+    .left, .center {
+    display: flex;
+    align-items: center; 
+    margin: 0%;
+}
+.left{
+    margin-left: 100px;
+    img{
+        width: 100px;
+    }
+}   
+    
+
+.center{
+    h4{
+        
+        text-decoration: none;
+        font-family: 'Libre Franklin', sans-serif;
+        color: $fontsColorWhite;
+        font-size: $fontSize2;
+        margin-right: 400px;
+     }    
+}
+
+}
+
